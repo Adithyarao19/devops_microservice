@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git url: 'https://github.com/Adithyarao19/Adithya_devops_assmt.git', branch: 'main'
+                git url: 'https://github.com/Adithyarao19/devops_microservice', branch: 'main'
             }
         }
 
